@@ -18,6 +18,10 @@ color: lightgray;
 
 }
 
+#logo{
+	max-height: 25px;
+}
+
 header{
 background: url("https://students.washington.edu/amosaula/index/background.jpg") center no-repeat;
 height: 330pt;
