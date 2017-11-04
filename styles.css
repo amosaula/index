@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(216, 217, 218);
+    font-family: 'Quicksand', sans-serif;
+}
+li, ul, a{
+padding-left: 0pt;
+padding-right: 10px;
+display: inline;
+text-decoration: none;
+}
+
+nav{
+padding: 10px;
+background-color:rgb(51, 0, 111);
+color: lightgray;
+
+}
+
+header{
+background-image: url("http://students.washington.edu/amosaula/index/background.jpeg");
+}
