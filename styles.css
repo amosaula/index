@@ -18,5 +18,6 @@ color: lightgray;
 }
 
 header{
-background-image: url("http://students.washington.edu/amosaula/index/background.jpeg");
+background: url("http://students.washington.edu/amosaula/index/background.jpeg") center no-repeat;
+line-height: 250pt;
 }
