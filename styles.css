@@ -3,6 +3,7 @@ body {
     background-color: rgb(216, 217, 218);
     font-family: 'Open Sans', sans-serif;
 }
+
 li, ul, a{
 padding-left: 0pt;
 padding-right: 10px;
