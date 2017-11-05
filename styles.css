@@ -23,24 +23,29 @@ color: lightgray;
 }
 
 header{
-	text-align: center;
 	background: url("background.jpg") top right no-repeat;
 	background-size: cover;
-	height: 330pt;
+	height: 100%;
 	padding-top: 30pt;
+}
+
+#welcome{
+
 }
 
 h1{
 	font-size: 50pt;
+	text-align: center;
+	line-height: 30pt;
 }
 
-h4{
+#shortbio{
 	line-height: 23pt;
 }
 
-h1, h4{
+h1, #shortbio{
 	color: #3a4b42;
 	text-align: right;
-	padding: 20px;
+	padding: 10px;
 	font-weight: .5;
 }
