@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(216, 217, 218);
+    background-color: #D7DCD5;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,7 +13,7 @@ text-decoration: none;
 
 nav{
 padding: 10px;
-background-color:rgb(51, 0, 111);
+background-color:#D7DCD5;
 color: lightgray;
 
 }
@@ -23,9 +23,10 @@ color: lightgray;
 }
 
 header{
-background: url("https://students.washington.edu/amosaula/index/background.jpg") center no-repeat;
-height: 330pt;
-padding-top: 30pt;
+	text-align: center;
+	background: url("https://students.washington.edu/amosaula/index/background.jpg") center no-repeat;
+	height: 330pt;
+	padding-top: 30pt;
 }
 
 h1{
@@ -38,7 +39,7 @@ h4{
 
 h1, h4{
 	max-width: 60%;
-	color: lightgray;
+	color: black;
 	text-align: left;
 	padding: 20px;
 	font-weight: .5;
