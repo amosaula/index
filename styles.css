@@ -4,12 +4,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-li, ul, a{
-padding-left: 0pt;
-padding-right: 10px;
-display: inline;
-text-decoration: none;
+body a{
+	color: gray;
+	padding-left: 0pt;
+	padding-right: 10px;
+	display: inline;
+	text-decoration: none !important;
+	transition: all 0.3s ease 0s;
 }
+
+a:hover{
+	color:purple;
+}
+
+
 
 nav{
 padding: 10px;
@@ -37,6 +45,7 @@ h1{
 	font-size: 50pt;
 	text-align: center;
 	line-height: 30pt;
+	text-decoration:none;
 }
 
 #shortbio{
