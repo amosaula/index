@@ -5,24 +5,25 @@ body {
 }
 
 body a{
-	color: gray;
 	padding-left: 0pt;
 	padding-right: 10px;
 	display: inline;
 	text-decoration: none !important;
-	transition: all 0.3s ease 0s;
+	transition: all 0.5s ease 0s;
 }
 
 a:hover{
-	color:purple;
+	color:#3a4b42;
+	text-shadow: 0 0 .5em black;
+
 }
 
 
 
 nav{
-padding: 10px;
-background-color:#D7DCD5;
-color: lightgray;
+	padding: 10px;
+	background-color:#D7DCD5;
+	color: lightgray;
 
 }
 
@@ -52,7 +53,7 @@ h1{
 	line-height: 23pt;
 }
 
-h1, #shortbio{
+h1, #shortbio, a{
 	color: #3a4b42;
 	text-align: right;
 	padding: 10px;
