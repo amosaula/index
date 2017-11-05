@@ -24,7 +24,8 @@ color: lightgray;
 
 header{
 	text-align: center;
-	background: url("https://students.washington.edu/amosaula/index/background.jpg") center no-repeat;
+	background: url("background.jpg") top right no-repeat;
+	background-size: cover;
 	height: 330pt;
 	padding-top: 30pt;
 }
@@ -38,9 +39,8 @@ h4{
 }
 
 h1, h4{
-	max-width: 60%;
-	color: black;
-	text-align: left;
+	color: #3a4b42;
+	text-align: right;
 	padding: 20px;
 	font-weight: .5;
 }
