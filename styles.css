@@ -18,6 +18,10 @@ a:hover{
 
 }
 
+ul, li{
+	display:inline;
+	text-decoration: none;
+}
 
 
 nav{
