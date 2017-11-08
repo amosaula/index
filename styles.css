@@ -2,9 +2,10 @@
 body {
     background-color: #D7DCD5;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-align: right;
 }
 
-body a{
+a{
 	padding-left: 0pt;
 	padding-right: 10px;
 	display: inline;
@@ -21,6 +22,7 @@ a:hover{
 ul, li{
 	display:inline;
 	text-decoration: none;
+	text-align: right;
 }
 
 
@@ -46,24 +48,16 @@ header a{
 	font-size: 25pt;
 }
 
-#welcome{
-
-}
-
 h1{
 	font-size: 50pt;
-	text-align: center;
 	line-height: 30pt;
 	text-decoration:none;
 }
 
-#shortbio{
-	line-height: 23pt;
-}
+
 
 h1, #shortbio, a{
 	color: #3a4b42;
-	text-align: right;
 	padding: 10px;
 	font-weight: .5;
 }
