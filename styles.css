@@ -3,6 +3,9 @@ body {
     background-color: #D7DCD5;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: right;
+    background: url("background.jpg") top right no-repeat;
+    background-size: cover;
+	height: 100%;
 }
 
 a{
@@ -25,22 +28,7 @@ ul, li{
 	text-align: right;
 }
 
-
-nav{
-	padding: 10px;
-	background-color:#D7DCD5;
-	color: lightgray;
-
-}
-
-#logo{
-	max-height: 25px;
-}
-
 header{
-	background: url("background.jpg") top right no-repeat;
-	background-size: cover;
-	height: 100%;
 	padding-top: 30pt;
 }
 
@@ -55,9 +43,14 @@ h1{
 }
 
 
-
-h1, #shortbio, a{
+h1{
 	color: #3a4b42;
 	padding: 10px;
 	font-weight: .5;
+}
+
+#about{
+	margin-top: 100pt;
+	background-color: #D7DCD5;
+	width: 100%;
 }
