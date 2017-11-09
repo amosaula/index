@@ -14,18 +14,22 @@ a{
 	display: inline;
 	text-decoration: none !important;
 	transition: all 0.5s ease 0s;
+	color: black;
 }
 
 a:hover{
 	color:#3a4b42;
 	text-shadow: 0 0 .5em black;
-
 }
 
 ul, li{
 	display:inline;
 	text-decoration: none;
 	text-align: right;
+}
+
+#logo{
+	max-height: 25px;
 }
 
 header{
@@ -43,7 +47,7 @@ h1{
 }
 
 
-h1{
+h1, #shortbio, a{
 	color: #3a4b42;
 	padding: 10px;
 	font-weight: .5;
@@ -51,6 +55,6 @@ h1{
 
 #about{
 	margin-top: 100pt;
-	background-color: #D7DCD5;
+	background-color:#D7DCD5;
 	width: 100%;
 }
