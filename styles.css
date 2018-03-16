@@ -2,6 +2,8 @@
 body {
   background-size: cover;
   height: 100%;
+  font-family: 'Mina', sans-serif;
+
 }
 
 ul, li{
@@ -15,9 +17,10 @@ ul, li{
 
 a {
   text-decoration: none !important;
-  color: #E6AF30;
-  font-weight: .5;
+}
 
+#title{
+  color: #E6AF30;
 }
 
 #welcome{
@@ -25,11 +28,12 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-
+  color: #E6AF30;
 }
 
 
 h1{
+  padding-top: 20px;
   color: black;
   font-weight: .5;
   font-size: 60px;
@@ -37,28 +41,58 @@ h1{
   text-align: center;
   opacity: .7;
   transition: .5s;
-  font-family: 'Pacifico', cursive;
 }
 
 a,h1:hover{
   transition: .5s;
   opacity: 1;
-  color: #E6AF30;
-
 }
 
 table{
   display: block;
   text-align: center;
   padding: 20px;
+  text-decoration: none !important;
+  margin: auto;
+
 }
 
 td{
   height: 600px;
+  max-width: 300px;
+  transition: .3s;
+  opacity: .8;
+  padding: 10px;
+  color: white;
+}
+
+td:hover{ 
+  transition: .3s;
+  opacity: .3;
+  background-color: white;
+  color: black;
 }
 
 #face{
   background-image: url('img/face.jpg');
+  background-position: right;
+  transition: .3s;
+}
+
+
+#hobbies{
+  background-image: url('img/concert.jpg');
+  background-position: center;
+}
+
+
+#design{
+  background-image: url('img/design.jpg');
+  background-position: center;
+}
+
+#contact{
+  background-image: url('img/contact.jpg');
   background-position: center;
 }
 
