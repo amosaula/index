@@ -80,7 +80,7 @@ td:hover{
 
 
 #vera{
-  background-image: url('/Users/alina/Desktop/index/img/vera.jpg');
+  background-image: url('../img/vera.jpg');
   background-position: center;
   background-size: 100%;
   color: black;
