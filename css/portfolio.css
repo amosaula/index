@@ -3,13 +3,14 @@ body {
   background-size: cover;
   height: 100%;
   font-family: 'Mina', sans-serif;
+  font-size: 9pt;
+  line-height: 20px;
 
 }
 
-a {
-  transition: .3s;
-  opacity: .8;
-  color: white;
+a{
+  text-decoration: none;
+  color: black;
 }
 
 #title{
@@ -28,16 +29,10 @@ h1{
   padding-top: 20px;
   color: black;
   font-weight: .5;
-  font-size: 60px;
+  font-size: 50px;
   color: #ADADAD;
   text-align: center;
   opacity: .7;
-  transition: .5s;
-}
-
-h1:hover{
-  transition: .5s;
-  opacity: 1;
 }
 
 table{
@@ -49,66 +44,76 @@ table{
 td{
   height: 300px;
   min-width: 300px;
-  transition: .3s;
-  opacity: 1;
+  transition: .6s;
+  opacity: 0.5;
   color: black;
   text-decoration: none !important;
   border: 20px solid white;
+  padding: 13px;
 
 }
 
-td:hover{ 
-  transition: .3s;
-  opacity: .6;
-  background-color: white;
-  color: black;
-  text-decoration: none !important;
+td:hover{
+
 }
 
 #cgame{
-  background-image: url('../img/cgame.png');
+  background-color: lightblue;
   background-position: center;
   transition: .3s;
-  background-size: 100%;
   background-repeat: no-repeat;
 }
 
-
-#vera{
-  background-image: url('../img/vera.jpg');
-  background-position: center;
-  background-size: 100%;
-  color: black;
-
+#cgame:hover{
+  opacity: 1;
+  transition: .3s;
 }
 
+#vera{
+  background-image: url('../img/concert.jpg');
+  background-position: top left;
+  color: black;
+  background-repeat: no-repeat;
+}
+
+#vera:hover{
+  opacity: 1;
+  transition: .3s;
+}
 
 #projectOp{
-  background-image: url('../img/projectOp.jpg');
-  background-position: center;
+  background-image: url('../img/contact.jpg');
+  background-position: top;
   background-size: 300%;
   transition: .3s;
-
-
 }
 
 #projectOp:hover{
-  background-image: url('../img/white.jpg');
-  transition: .5s;
+  opacity: 1;
+  transition: .3s;
 }
 
 #unprebeared{
-  background-image: url('../img/unprebeared.png');
-  background-position: center;
-  background-size: 100%;
+  background-image: url('../img/design.jpg');
+  background-position:  center ;
+    background-repeat: no-repeat;
+}
+
+#unprebeared:hover{
+  opacity: 1;
+  transition: .3s;
 }
 
 #darkGreen{
-  background-color: #B8DDCF;
+  background-color: #CCFA93;
+}
+#darkGreen:hover{
+  opacity: 1;
+  transition: .3s;
 }
 
 #luxhomes{
-  background-image: url('../img/luxhomes.jpg');
+  background-image: url('../img/contact.jpg');
   background-position: left;
   background-size: 300%;
   background-repeat: no-repeat;
@@ -125,6 +130,10 @@ td:hover{
   background-color: #4b2e83;
   color: #b7a57a;
 }
+#school:hover{
+  opacity: 1;
+  transition: .3s;
+}
 
 .classfile{
   text-align: center;
@@ -137,10 +146,16 @@ table{
   top: 50%;
   left: 50%;
   display: block;
+  padding-top: 15px;
   text-align: center;
-  padding-top: 15%;
   text-decoration: none !important;
 }
 
+button{
+  border: none;
+  background-color: white;
+  opacity: .6;
+  margin: 10px;
+}
 
 
