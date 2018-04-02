@@ -19,6 +19,10 @@ figure{
   margin: 20px;
 }
 
+.class{
+  width: 400px;
+}
+
 iframe{
   margin: 20px;
 }
@@ -86,10 +90,6 @@ td{
   text-decoration: none !important;
   border: 10px solid white;
   padding: 13px;
-}
-
-img{
-  width: 400px;
 }
 
 #cgame{
