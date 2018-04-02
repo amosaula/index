@@ -105,6 +105,8 @@ td{
   background-position: top left;
   color: black;
   background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
 }
 
 #vera:hover{
@@ -161,6 +163,8 @@ td{
 #school{
   background-color: #4b2e83;
   color: #b7a57a;
+  height: 300px;
+
 }
 #school:hover{
   opacity: 1;
