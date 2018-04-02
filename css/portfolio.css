@@ -15,16 +15,13 @@ a{
 figure{
   display: block;
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 
 .class{
   width: 400px;
 }
 
-iframe{
-  margin: 20px;
-}
 
 #title{
   color: #ADADAD;
