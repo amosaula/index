@@ -33,22 +33,42 @@ h1{
   color: #ADADAD;
   text-align: center;
   opacity: .7;
+  text-decoration: none !important;
+}
+
+h2{
+  color: black;
+  font-weight: .2;
+  font-size: 25px;
+  color: #ADADAD;
+  text-align: center;
+  opacity: .7;
+  padding-bottom: 15px;
+}
+
+h3{
+  font-size: 20px;
 }
 
 table{
+  margin-top: 30px;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
   display: block;
+  text-align: center;
   text-decoration: none !important;
-  margin-right: auto;
 }
 
 td{
-  height: 300px;
-  min-width: 300px;
+  min-height: 250px;
+  min-width: 250px;
   transition: .6s;
   opacity: 0.5;
   color: black;
   text-decoration: none !important;
-  border: 20px solid white;
+  border: 10px solid white;
   padding: 13px;
 
 }
@@ -72,7 +92,7 @@ td:hover{
 #vera{
   background-image: url('../img/concert.jpg');
   background-position: top left;
-  color: black;
+  color: lightgray;
   background-repeat: no-repeat;
 }
 
@@ -106,6 +126,7 @@ td:hover{
 
 #darkGreen{
   background-color: #CCFA93;
+  color: #71964E;
 }
 #darkGreen:hover{
   opacity: 1;
@@ -138,17 +159,6 @@ td:hover{
 .classfile{
   text-align: center;
   min-width: 300px;
-}
-
-table{
-  transform: translateX(-50%) translateY(-50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  padding-top: 15px;
-  text-align: center;
-  text-decoration: none !important;
 }
 
 button{
