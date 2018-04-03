@@ -43,6 +43,7 @@ h1:hover{
 }
 
 table{
+  padding-top: 65px;
   display: block;
   text-align: center;
   padding: 20px;
