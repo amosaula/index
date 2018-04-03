@@ -163,7 +163,7 @@ td{
 #school{
   background-color: #4b2e83;
   color: #b7a57a;
-  height: 300px;
+    height: 300px;
 
 }
 #school:hover{
@@ -171,10 +171,6 @@ td{
   transition: .3s;
 }
 
-.classfile{
-  text-align: center;
-  min-width: 300px;
-}
 
 button{
   border: none;
