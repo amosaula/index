@@ -19,7 +19,7 @@ figure{
 }
 
 .class{
-  width: 400px;
+  max-width: 400px;
 }
 
 
@@ -67,19 +67,17 @@ h1:hover{
 }
 
 table{
+  display: block;
   margin-top: 100px;
   transform: translateX(-50%) translateY(-50%);
   position: absolute;
   top: 50%;
   left: 50%;
-  display: block;
-  text-align: center;
+   text-align: center;
   text-decoration: none !important;
 }
 
 td{
-  min-height: 300px;
-  min-width: 300px;
   transition: .6s;
   opacity: 0.5;
   color: black;
@@ -95,36 +93,21 @@ td{
   background-repeat: no-repeat;
 }
 
-#cgame:hover{
-  opacity: 1;
-  transition: .3s;
-}
-
 #vera{
   background-image: url('../img/concert.jpg');
   background-position: top left;
   color: black;
   background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-}
-
-#vera:hover{
-  opacity: 1;
-  transition: .3s;
 }
 
 #projectOp{
   background-image: url('../img/contact.jpg');
-  background-position: top;
-  background-size: 300%;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
   transition: .3s;
 }
 
-#projectOp:hover{
-  opacity: 1;
-  transition: .3s;
-}
 
 #unprebeared{
   background-image: url('../img/design.jpg');
@@ -132,45 +115,29 @@ td{
     background-repeat: no-repeat;
 }
 
-#unprebeared:hover{
-  opacity: 1;
-  transition: .3s;
-}
-
 #darkGreen{
   background-color: #CCFA93;
   color: #71964E;
-}
-#darkGreen:hover{
-  opacity: 1;
-  transition: .3s;
 }
 
 #luxhomes{
   background-image: url('../img/contact.jpg');
   background-position: left;
-  background-size: 300%;
+  background-size: fill;
   background-repeat: no-repeat;
 }
 
 #rgb{
   background-image: url('../img/rgb.png');
   background-position: left;
-  background-size: 100%;
+  background-size: fill;
   background-repeat: no-repeat;
 }
 
 #school{
   background-color: #4b2e83;
   color: #b7a57a;
-    height: 300px;
-
 }
-#school:hover{
-  opacity: 1;
-  transition: .3s;
-}
-
 
 button{
   border: none;

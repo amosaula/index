@@ -8,7 +8,6 @@ body {
 
 
 a {
-  transition: .3s;
   opacity: .8;
   color: white;
 }
@@ -34,21 +33,14 @@ h1{
   color: #ADADAD;
   text-align: center;
   opacity: .7;
-  transition: .5s;
-}
-
-h1:hover{
-  transition: .5s;
-  opacity: 1;
 }
 
 table{
   padding-top: 65px;
   display: block;
   text-align: center;
-  padding: 20px;
   text-decoration: none !important;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-10%) translateY(-50%);
   position: absolute;
   top: 52%;
   left: 50%;
@@ -59,8 +51,6 @@ td{
   height: 600px;
   min-width: 150px;
   max-width: 300px;
-  transition: .3s;
-  opacity: .7;
   padding: 10px;
   color: white;
   text-decoration: none !important;
@@ -69,11 +59,15 @@ td{
 
 td:hover{ 
   transition: .3s;
-  opacity: .3;
   background-color: white;
   color: black;
   text-decoration: none !important;
 
+}
+
+#logo{
+  transform: translateX(50%);
+  height: 150px;
 }
 
 #face{
